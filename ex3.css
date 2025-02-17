@@ -1,0 +1,27 @@
+body {
+    background-color: grey;
+    margin-top: 20px;
+}
+
+input {
+    background-color: white;
+    width: 100%;
+}
+button {
+    margin-top: 20px;
+    padding: 10px;
+}
+ul {
+    list-style: none;
+}
+.input-container {
+    position: relative;
+    display: flex;
+    align-items: last baseline;
+    width: 100%;
+}
+
+.input-container .delete-btn {
+    position: absolute;
+    right: 10px;
+}
